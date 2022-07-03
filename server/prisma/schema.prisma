@@ -59,6 +59,7 @@ model Address {
 model Product {
   createdAt   DateTime @default(now())
   description String?
+  extra       String?
   id          String   @id @default(cuid())
   itemPrice   Float?
   name        String?

@@ -17,6 +17,7 @@ export const ProductEdit = (props: EditProps): React.ReactElement => {
     <Edit {...props}>
       <SimpleForm>
         <TextInput label="Description" multiline source="description" />
+        <TextInput label="Extra" multiline source="extra" />
         <NumberInput label="Item Price" source="itemPrice" />
         <TextInput label="Name" source="name" />
         <ReferenceArrayInput

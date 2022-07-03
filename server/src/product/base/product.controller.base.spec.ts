@@ -13,6 +13,7 @@ const existingId = "existingId";
 const CREATE_INPUT = {
   createdAt: new Date(),
   description: "exampleDescription",
+  extra: "exampleExtra",
   id: "exampleId",
   itemPrice: 42.42,
   name: "exampleName",
@@ -21,6 +22,7 @@ const CREATE_INPUT = {
 const CREATE_RESULT = {
   createdAt: new Date(),
   description: "exampleDescription",
+  extra: "exampleExtra",
   id: "exampleId",
   itemPrice: 42.42,
   name: "exampleName",
@@ -30,6 +32,7 @@ const FIND_MANY_RESULT = [
   {
     createdAt: new Date(),
     description: "exampleDescription",
+    extra: "exampleExtra",
     id: "exampleId",
     itemPrice: 42.42,
     name: "exampleName",
@@ -39,6 +42,7 @@ const FIND_MANY_RESULT = [
 const FIND_ONE_RESULT = {
   createdAt: new Date(),
   description: "exampleDescription",
+  extra: "exampleExtra",
   id: "exampleId",
   itemPrice: 42.42,
   name: "exampleName",
