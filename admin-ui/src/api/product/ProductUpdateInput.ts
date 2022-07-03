@@ -2,6 +2,7 @@ import { OrderUpdateManyWithoutProductsInput } from "./OrderUpdateManyWithoutPro
 
 export type ProductUpdateInput = {
   description?: string | null;
+  extra?: string | null;
   itemPrice?: number | null;
   name?: string | null;
   orders?: OrderUpdateManyWithoutProductsInput;

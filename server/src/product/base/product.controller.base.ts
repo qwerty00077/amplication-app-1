@@ -53,6 +53,7 @@ export class ProductControllerBase {
       select: {
         createdAt: true,
         description: true,
+        extra: true,
         id: true,
         itemPrice: true,
         name: true,
@@ -78,6 +79,7 @@ export class ProductControllerBase {
       select: {
         createdAt: true,
         description: true,
+        extra: true,
         id: true,
         itemPrice: true,
         name: true,
@@ -104,6 +106,7 @@ export class ProductControllerBase {
       select: {
         createdAt: true,
         description: true,
+        extra: true,
         id: true,
         itemPrice: true,
         name: true,
@@ -139,6 +142,7 @@ export class ProductControllerBase {
         select: {
           createdAt: true,
           description: true,
+          extra: true,
           id: true,
           itemPrice: true,
           name: true,
@@ -173,6 +177,7 @@ export class ProductControllerBase {
         select: {
           createdAt: true,
           description: true,
+          extra: true,
           id: true,
           itemPrice: true,
           name: true,

@@ -3,6 +3,7 @@ import { Order } from "../order/Order";
 export type Product = {
   createdAt: Date;
   description: string | null;
+  extra: string | null;
   id: string;
   itemPrice: number | null;
   name: string | null;

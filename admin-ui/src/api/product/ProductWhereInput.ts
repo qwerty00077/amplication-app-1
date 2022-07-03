@@ -5,6 +5,7 @@ import { OrderListRelationFilter } from "../order/OrderListRelationFilter";
 
 export type ProductWhereInput = {
   description?: StringNullableFilter;
+  extra?: StringNullableFilter;
   id?: StringFilter;
   itemPrice?: FloatNullableFilter;
   name?: StringNullableFilter;
